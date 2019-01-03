@@ -26,7 +26,7 @@ public class ParallelExecution {
 		
 		if(browser.equalsIgnoreCase("firefox")) {
 			driver= new FirefoxDriver();
-			//System.setProperty("webdriver.chrome.driver","./driver/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","./driver/geckodriver.exe");
 		}
 		else if(browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
