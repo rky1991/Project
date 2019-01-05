@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Framework"/>
 	<classpathentry kind="src" path="src-ExtentReport"/>
+	<classpathentry kind="src" path="Log4-j"/>
 	<classpathentry kind="lib" path="jar/selenium-server-standalone-3.9.1.jar"/>
 	<classpathentry kind="lib" path="ExtentReport-jar/bson-3.3.0.jar"/>
 	<classpathentry kind="lib" path="ExtentReport-jar/commons-codec-1.9.jar"/>
@@ -18,5 +19,6 @@
 	<classpathentry kind="lib" path="ExtentReport-jar/jsoup-1.9.2.jar"/>
 	<classpathentry kind="lib" path="ExtentReport-jar/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="ExtentReport-jar/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="log4j-jar/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
